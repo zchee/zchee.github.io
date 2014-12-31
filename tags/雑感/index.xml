@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>雑感 on Hugo Themes</title>
-    <link>http://hugo.spf13.com/tags/%E9%9B%91%E6%84%9F/</link>
-    <description>Recent content in 雑感 on Hugo Themes</description>
+    <title>雑感 on </title>
+    <link>http://zchee.github.io/tags/%E9%9B%91%E6%84%9F/</link>
+    <description>Recent content in 雑感 on </description>
     <generator>Hugo -- gohugo.io</generator>
     
     
-    <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
+    
     <lastBuildDate>Thu, 01 Jan 2015 00:42:45 JST</lastBuildDate>
-    <atom:link href="http://hugo.spf13.com/tags/%E9%9B%91%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://zchee.github.io/tags/%E9%9B%91%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Happy New Years</title>
-      <link>http://hugo.spf13.com/post/a-happy-new-years/</link>
+      <link>http://zchee.github.io/post/a-happy-new-years/</link>
       <pubDate>Thu, 01 Jan 2015 00:42:45 JST</pubDate>
       
-      <guid>http://hugo.spf13.com/post/a-happy-new-years/</guid>
+      <guid>http://zchee.github.io/post/a-happy-new-years/</guid>
       <description>
 
 &lt;h2 id=&#34;a-happy-new-years:dd9154ee8b43b0f7a7f00b335bd3972d&#34;&gt;A Happy New Years !&lt;/h2&gt;
@@ -54,7 +54,7 @@
 &amp;lt;!--&amp;lt;![endif]--&amp;gt;
 &amp;lt;link href=&amp;quot;//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;
 &amp;lt;link href=&amp;quot;/css/highlight/tomorrow-night.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;
-&amp;lt;script src=&#39;http://hugo.spf13.com/js/highlight.pack.js&#39;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&#39;http://zchee.github.io/js/highlight.pack.js&#39;&amp;gt;&amp;lt;/script&amp;gt;
 &amp;lt;script&amp;gt;hljs.initHighlightingOnLoad();&amp;lt;/script&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
