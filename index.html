@@ -140,60 +140,6 @@ cd ..
                     </div>
                 </section>
                 
-                <h1 class="content-subhead">31 Dec 2014, 19:46</h1>
-                <section class="post">
-                    <header class="post-header">
-
-                        <a href="http://zchee.github.io/about/" class="post-title">about</a>
-
-                        <p class="post-meta">
-                            
-                            
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        
-
-<h2 id="a-happy-new-years:6083a88ee3411b0d17ce02d738f69d47">A Happy New Years !</h2>
-
-<p>テストとして新年早々書いてみる。
-新しくブログを始めるにあたり、HugoというGo言語で作られたサイトジェネレータを使って、GitHubでホストしてみた。</p>
-
-<p>ブログに限り、エディタはAtom.ioを使って書く予定。
-普段はSublimeTextやIntelliJを使っているけど、フロントエンドエンジニアのデファクトスタンダードであるJS（Coffee）で拡張できる良さを感じたくて、ブログで慣れていこうと思う。</p>
-
-<p>コードスタイリングのテストとして、以下Hugoをデプロイするときに使っている公式に載っている<code>deploy.sh</code></p>
-
-<pre><code>#!/bin/bash
-
-echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
-
-# Build the project.
-hugo -t hyde-x
-
-# Go To Public folder
-cd public
-# Add changes to git.
-git add -A
-
-# Commit changes.
-msg=&quot;rebuilding site `date`&quot;
-if [ $# -eq 1 ]
-then msg=&quot;$1&quot;
-fi
-git commit -m &quot;$msg&quot;
-
-# Push source and build repos.
-git push origin master
-
-# Come Back
-cd ..
-</code></pre>
-
-                    </div>
-                </section>
-                
             </div>
             <div class="footer">
     <div class="pure-menu pure-menu-horizontal pure-menu-open">
