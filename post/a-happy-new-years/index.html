@@ -7,23 +7,23 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>a happy new years &middot; </title>
+  <title>A Happy New Years &middot; </title>
 
   
-  <link rel="stylesheet" href="http://zchee.github.io/css/poole.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/hyde.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/poole-overrides.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/hyde-overrides.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/hyde-x.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/poole.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/hyde.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/hyde-x.css">
   
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://zchee.github.io/apple-touch-icon-144-precomposed.png">
-  <link href="http://zchee.github.io/favicon.png" rel="icon">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title=" &middot; " />
+  <link href="" rel="alternate" type="application/rss+xml" title="Hugo Themes &middot; " />
 
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -39,7 +39,9 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item"><a href="http://zchee.github.io/">Blog</a></li>
+      <li class="sidebar-nav-item"><a href="http://hugo.spf13.com/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://hugo.spf13.com/post/a-happy-new-years/">A Happy New Years</a></li>
       
     </ul>
 
@@ -51,16 +53,84 @@
       
     </ul>
 
-    <p>Copyright &copy; 2015 <a href="http://zchee.github.io/license">License</a><br/>
+    <p>Copyright &copy; 2015 <a href="http://hugo.spf13.com/license">License</a><br/>
        Powered by <a href="http://hugo.spf13.com">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
   </div>
 </div>
 
 <div class="content container">
   <div class="post">
-    <h1>a happy new years</h1>
-    <span class="post-date">Jan 1, 2015 &middot; 0 minute read</span>
+    <h1>A Happy New Years</h1>
+    <span class="post-date">Jan 1, 2015 &middot; 1 minute read</span>
     
+
+<h2 id="a-happy-new-years:dd9154ee8b43b0f7a7f00b335bd3972d">A Happy New Years !</h2>
+
+<p>テストとして新年早々書いてみる。
+新しくブログを始めるにあたり、HugoというGo言語で作られたサイトジェネレータを使って、GitHubでホストしてみた。</p>
+
+<p>ブログに限り、エディタはAtom.ioを使って書く予定。
+普段はSublimeTextやIntelliJを使っているけど、フロントエンドエンジニアのデファクトスタンダードであるJS（Coffee）で拡張できる良さを感じたくて、ブログで慣れていこうと思う。</p>
+
+<p>コードスタイリングのテストとして、以下Hugoをデプロイするときに使っている公式に載っている<code>deploy.sh</code></p>
+
+<pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;meta name=&quot;description&quot; content=&quot;A layout example that shows off a blog page with a list of posts.&quot;&gt;
+
+&lt;title&gt;{{ .Title }} &amp;middot; {{ .Site.Title }}&lt;/title&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.5.0/pure-min.css&quot;&gt;
+&lt;!--[if lte IE 8]&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css&quot;&gt;
+&lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css&quot;&gt;
+&lt;!--&lt;![endif]--&gt;
+
+&lt;!--[if lte IE 8]&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/layouts/blog-old-ie.css&quot;&gt;
+&lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/blog.css&quot;&gt;
+&lt;!--&lt;![endif]--&gt;
+&lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;/css/highlight/tomorrow-night.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src='/js/highlight.pack.js'&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+</code></pre>
+
+<pre><code class="language-sh">#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo -t hyde-x
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+</code></pre>
+
   </div>
   
 </div>

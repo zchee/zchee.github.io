@@ -10,20 +10,20 @@
   <title>about &middot; </title>
 
   
-  <link rel="stylesheet" href="http://zchee.github.io/css/poole.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/hyde.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/poole-overrides.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/hyde-overrides.css">
-  <link rel="stylesheet" href="http://zchee.github.io/css/hyde-x.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/poole.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/hyde.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://hugo.spf13.com/css/hyde-x.css">
   
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://zchee.github.io/apple-touch-icon-144-precomposed.png">
-  <link href="http://zchee.github.io/favicon.png" rel="icon">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title=" &middot; " />
+  <link href="" rel="alternate" type="application/rss+xml" title="Hugo Themes &middot; " />
 
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -39,7 +39,9 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item"><a href="http://zchee.github.io/">Blog</a></li>
+      <li class="sidebar-nav-item"><a href="http://hugo.spf13.com/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://hugo.spf13.com/post/a-happy-new-years/">A Happy New Years</a></li>
       
     </ul>
 
@@ -51,7 +53,7 @@
       
     </ul>
 
-    <p>Copyright &copy; 2015 <a href="http://zchee.github.io/license">License</a><br/>
+    <p>Copyright &copy; 2015 <a href="http://hugo.spf13.com/license">License</a><br/>
        Powered by <a href="http://hugo.spf13.com">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
   </div>
 </div>
@@ -60,6 +62,43 @@
   <div class="post">
     <h1>about</h1>
     
+
+<h2 id="a-happy-new-years:6083a88ee3411b0d17ce02d738f69d47">A Happy New Years !</h2>
+
+<p>テストとして新年早々書いてみる。
+新しくブログを始めるにあたり、HugoというGo言語で作られたサイトジェネレータを使って、GitHubでホストしてみた。</p>
+
+<p>ブログに限り、エディタはAtom.ioを使って書く予定。
+普段はSublimeTextやIntelliJを使っているけど、フロントエンドエンジニアのデファクトスタンダードであるJS（Coffee）で拡張できる良さを感じたくて、ブログで慣れていこうと思う。</p>
+
+<p>コードスタイリングのテストとして、以下Hugoをデプロイするときに使っている公式に載っている<code>deploy.sh</code></p>
+
+<pre><code>#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo -t hyde-x
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+</code></pre>
+
   </div>
 </div>
 
