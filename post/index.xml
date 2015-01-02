@@ -89,6 +89,9 @@ functionについてはマニュアルを参考のこと。&lt;/p&gt;
 &lt;p&gt;今考えると、去年はpowerlineステータスライン使っていなかったのか。&lt;br /&gt;
 見栄えよくなり、新鮮味があっていい。&lt;/p&gt;
 
+&lt;p&gt;ただ、ステータスラインがちらつくのが少し困る。&lt;br /&gt;
+&lt;a href=&#34;https://github.com/erikw/tmux-powerline&#34;&gt;tmux-powerline&lt;/a&gt;もあるので、ふたつを統合できたらいいんだけど。&lt;/p&gt;
+
 &lt;h2 id=&#34;time:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Time&lt;/h2&gt;
 
 &lt;p&gt;ただ、これらの設定をするのに1日かかってしまった。&lt;br /&gt;
