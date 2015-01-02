@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Awareness</title>
-    <link>http://zchee.github.io/post/</link>
-    <description>Recent content in Posts on Awareness</description>
+    <title>Tmux on Awareness</title>
+    <link>http://zchee.github.io/tags/tmux/</link>
+    <description>Recent content in Tmux on Awareness</description>
     <generator>Hugo -- gohugo.io</generator>
     
     
     
     <lastBuildDate>Sat, 03 Jan 2015 05:23:31 JST</lastBuildDate>
-    <atom:link href="http://zchee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://zchee.github.io/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>in the beginning of spring cleaning No.1</title>
@@ -129,134 +129,6 @@ Atom.ioをはじめたけど、当たり前にできることが少なくてパ�
 
 &lt;p&gt;いろいろやり過ぎなんだろうか。&lt;br /&gt;
 いや、いろいろやることが多すぎるんだろう。今の時代。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>first shrine visit of New Year</title>
-      <link>http://zchee.github.io/2015/01/first-shrine-visit-of-new-year/</link>
-      <pubDate>Fri, 02 Jan 2015 02:22:10 JST</pubDate>
-      
-      <guid>http://zchee.github.io/2015/01/first-shrine-visit-of-new-year/</guid>
-      <description>&lt;p&gt;人生で初めての、浅草寺への初詣。&lt;/p&gt;
-
-&lt;p&gt;浅草駅に着いたころはそれほど混んでいない印象だったものの、やはり日本を象徴する建物のひとつなだけある。&lt;br /&gt;
-寺が近づくにつれて日本人をはじめ海外の方も多くなり、雷門をくぐるころには辺りはごった返していた。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://zchee.github.io/images/camera/IMG_0487.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;この写真なんかもうデモでも始まりそうな感がある。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://zchee.github.io/images/camera/IMG_0510.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;満員電車以上の押し問答の末、無事お賽銭を入れれたのはこの写真のはるか後。&lt;br /&gt;
-あれほど長く賽銭箱前に居たことは今までなかったと思う。&lt;/p&gt;
-
-&lt;p&gt;ちなみに、元旦恒例おみくじはしっかり「凶」を引いてしまった。&lt;br /&gt;
-浅草寺は凶が多いと聞いていたのでダメージ少なかったけど、さすがに堪えたな。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://zchee.github.io/images/camera/IMG_0619.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;あとは梅の花なのかな、一本だけぽつりと咲いていたのが印象的で、皆写真を撮っていた。&lt;br /&gt;
-自分も【Camera +】アプリの本領発揮、接写モードで撮ってみた。&lt;br /&gt;
-しっかりピン外してしまって残念な感じだ。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;images/camera/IMG_0620.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;お昼は、偶然にも以前巣鴨店の方に行ったことのある「やよい食堂」だったか、その浅草店で。&lt;br /&gt;
-看板のランチメニューB定食に釣られて入ってみたものの、少しボリューム感ありすぎて完食はできませんでした。&lt;br /&gt;
-でも美味しかった。&lt;br /&gt;
-浅草店も良かったが、巣鴨店は何故か落ち着くのでまたタイミングがあったら行きたいと思う。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;images/camera/IMG_0626.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;そんな元旦。&lt;br /&gt;
-明日はまた一日フリーでコードを書こうと思う。&lt;/p&gt;
-
-&lt;p&gt;その前にTrelloに書いたNew Year Todoでも済まそうかな。&lt;br /&gt;
-Macの大掃除といったところ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Happy New Years</title>
-      <link>http://zchee.github.io/2015/01/a-happy-new-years/</link>
-      <pubDate>Thu, 01 Jan 2015 00:42:45 JST</pubDate>
-      
-      <guid>http://zchee.github.io/2015/01/a-happy-new-years/</guid>
-      <description>
-
-&lt;h2 id=&#34;a-happy-new-years:dd9154ee8b43b0f7a7f00b335bd3972d&#34;&gt;A Happy New Years !&lt;/h2&gt;
-
-&lt;p&gt;テストとして新年早々書いてみる。
-新しくブログを始めるにあたり、HugoというGo言語で作られたサイトジェネレータを使って、GitHubでホストしてみた。&lt;/p&gt;
-
-&lt;p&gt;ブログに限り、エディタはAtom.ioを使って書く予定。
-普段はSublimeTextやIntelliJを使っているけど、フロントエンドエンジニアのデファクトスタンダードであるJS（Coffee）で拡張できる良さを感じたくて、ブログで慣れていこうと思う。&lt;/p&gt;
-
-&lt;p&gt;コードスタイリングのテストとして、以下Hugoをデプロイするときに使っている公式に載っている&lt;code&gt;deploy.sh&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt;
-&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;A layout example that shows off a blog page with a list of posts.&amp;quot;&amp;gt;
-
-&amp;lt;title&amp;gt;{{ .Title }} &amp;amp;middot; {{ .Site.Title }}&amp;lt;/title&amp;gt;
-&amp;lt;link href=&#39;http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&amp;gt;
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;http://yui.yahooapis.com/pure/0.5.0/pure-min.css&amp;quot;&amp;gt;
-&amp;lt;!--[if lte IE 8]&amp;gt;
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css&amp;quot;&amp;gt;
-&amp;lt;![endif]--&amp;gt;
-&amp;lt;!--[if gt IE 8]&amp;gt;&amp;lt;!--&amp;gt;
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css&amp;quot;&amp;gt;
-&amp;lt;!--&amp;lt;![endif]--&amp;gt;
-
-&amp;lt;!--[if lte IE 8]&amp;gt;
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;/css/layouts/blog-old-ie.css&amp;quot;&amp;gt;
-&amp;lt;![endif]--&amp;gt;
-&amp;lt;!--[if gt IE 8]&amp;gt;&amp;lt;!--&amp;gt;
-&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;/css/blog.css&amp;quot;&amp;gt;
-&amp;lt;!--&amp;lt;![endif]--&amp;gt;
-&amp;lt;link href=&amp;quot;//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;
-&amp;lt;link href=&amp;quot;/css/highlight/tomorrow-night.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;
-&amp;lt;script src=&#39;http://zchee.github.io/js/highlight.pack.js&#39;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script&amp;gt;hljs.initHighlightingOnLoad();&amp;lt;/script&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/bash
-
-echo -e &amp;quot;\033[0;32mDeploying updates to GitHub...\033[0m&amp;quot;
-
-# Build the project.
-hugo -t hyde-x
-
-# Go To Public folder
-cd public
-# Add changes to git.
-git add -A
-
-# Commit changes.
-msg=&amp;quot;rebuilding site `date`&amp;quot;
-if [ $# -eq 1 ]
-then msg=&amp;quot;$1&amp;quot;
-fi
-git commit -m &amp;quot;$msg&amp;quot;
-
-# Push source and build repos.
-git push origin master
-
-# Come Back
-cd ..
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
