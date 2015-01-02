@@ -8,8 +8,129 @@
     
     
     
-    <lastBuildDate>Fri, 02 Jan 2015 02:22:10 JST</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2015 05:23:31 JST</lastBuildDate>
     <atom:link href="http://zchee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>in the beginning of spring cleaning No.1</title>
+      <link>http://zchee.github.io/2015/01/in-the-beginning-of-spring-cleaning-no.1/</link>
+      <pubDate>Sat, 03 Jan 2015 05:23:31 JST</pubDate>
+      
+      <guid>http://zchee.github.io/2015/01/in-the-beginning-of-spring-cleaning-no.1/</guid>
+      <description>
+
+&lt;p&gt;年始最初のMac大掃除。&lt;br /&gt;
+No.1としておこう。&lt;/p&gt;
+
+&lt;p&gt;まずはターミナルの基礎になっている、tmuxの設定を。&lt;/p&gt;
+
+&lt;h2 id=&#34;powerline:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Powerline&lt;/h2&gt;
+
+&lt;p&gt;powerline/powerlineが最近更新されているようなので、再び調べて使ってみることにした。&lt;br /&gt;
+以前はpowerline-daemonの取り扱いがよくわからず断念した悔しい思い出があったが、今回は&lt;a href=&#34;https://powerline.readthedocs.org/en/latest/index.html&#34;&gt;マニュアル&lt;/a&gt;通りにpipインストールでやってみて、ステータスラインのテーマも用意されているものを使ってみたところ、ちゃんと動いた。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://zchee.github.io/images/ss/Screenshot-2015-01-03-06.37.57.png&#34; alt=&#34;&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;しかし、pyenvからのpipインストールなので、レポジトリのコピーが&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~/.pyenv/versions/2.7.8/lib/python2.7/site-packages/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;に置かれる。
+テーマの場所もその階層内なので、dotfiles管理としてhomesickを使っているのにも関わらず管理できないのは困る。&lt;br /&gt;
+エイリアスを貼るのもなんかおかしいし、本当はdotfiles階層内に置きたいところ。&lt;br /&gt;
+ただ、そうするとテーマファイルが見つからないとなり、ステータスラインが表示されなくなってしまう。
+たぶんpowerline-configコマンドあたりで設定を変更する感じがするのだが、保留。&lt;br /&gt;
+また今度やりたいな。&lt;br /&gt;
+というかスクラッチで書きたくなってしまう。&lt;br /&gt;
+無理だけど。&lt;/p&gt;
+
+&lt;h2 id=&#34;status-line:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Status line&lt;/h2&gt;
+
+&lt;p&gt;とりあえず随分ディレクトリを掘って配置されたステータスライン設定用のjsonファイルを編集。&lt;br /&gt;
+jsonでかけるのは良いかも。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;segments&amp;quot;: {
+    &amp;quot;right&amp;quot;: [
+    {
+      &amp;quot;function&amp;quot;: &amp;quot;powerline.segments.shell.jobnum&amp;quot;
+    },
+    {
+      &amp;quot;function&amp;quot;: &amp;quot;powerline.segments.common.net.external_ip&amp;quot;
+    },
+    {
+      &amp;quot;function&amp;quot;: &amp;quot;powerline.segments.common.bat.battery&amp;quot;,
+      &amp;quot;empty_heart&amp;quot;: &amp;quot;u&#39;O&#39;&amp;quot;,
+      &amp;quot;full_heart&amp;quot;: &amp;quot;u&#39;O&#39;&amp;quot;,
+      &amp;quot;gamify&amp;quot;: &amp;quot;False&amp;quot;,
+      &amp;quot;steps&amp;quot;: &amp;quot;5&amp;quot;,
+      &amp;quot;format&amp;quot;: &amp;quot;u&#39;{capacity:3.0%}&#39;)&amp;quot;
+    },
+    {
+      &amp;quot;function&amp;quot;: &amp;quot;powerline.segments.common.time.date&amp;quot;
+    }
+    ]
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;すでに用意されているfunctionを使って、ステータスラインを装飾していく。&lt;br /&gt;
+functionについてはマニュアルを参考のこと。&lt;/p&gt;
+
+&lt;p&gt;ペイン仕切り線の色を変えることによって現在のペインを目立たせることができるのだが、デフォルトだとgreenになるのかどこかで指定されているのか、とにかくステータスラインとあっていなかったので&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;setw -g pane-active-border-fg blue
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;として色を変更。&lt;/p&gt;
+
+&lt;p&gt;今考えると、去年はpowerlineステータスライン使っていなかったのか。&lt;br /&gt;
+見栄えよくなり、新鮮味があっていい。&lt;/p&gt;
+
+&lt;h2 id=&#34;time:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Time&lt;/h2&gt;
+
+&lt;p&gt;ただ、これらの設定をするのに1日かかってしまった。&lt;br /&gt;
+ソースコードを見て、なぜ動かないかを探るクセがついた・見れば少し分かるようになったのは良いことだけど、まだまだ時間が掛かりすぎる。&lt;/p&gt;
+
+&lt;h2 id=&#34;rails-and-etc:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Rails and etc&lt;/h2&gt;
+
+&lt;p&gt;Railsを覚えようと思いたち、早半年以上。&lt;br /&gt;
+JavaScriptも適当にやりながら、途中SublimeTextのパッケージを書くために少しPython、IntelliJのテーマを変えたくてほんの少しJava。&lt;br /&gt;
+SASSはとりあえずかけるけど、ネストできるだけでmixinあたりはまだまだ把握していない。&lt;br /&gt;
+gulpはそこそこ分かったので、逆にgruntを知らない文拒否反応が出る。遅い。&lt;br /&gt;
+bower、Yeoman、そのあたりもなんとなく分かりつつある。内部処理ではなく、表面的な使い方だけね。&lt;/p&gt;
+
+&lt;p&gt;VagrantでのRails用boxは4つスターがついたので、少しやる気出してしっかり組んでみた。&lt;/p&gt;
+
+&lt;h2 id=&#34;editor:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Editor&lt;/h2&gt;
+
+&lt;p&gt;エディタはSublimeText。これはそろそろ1年になる？Dreamweaver使ってたころが懐かしい。&lt;/p&gt;
+
+&lt;p&gt;次にIntelliJでIDEデビュー。RubyMineが良いとのことで触ってみたけど、いろいろYakが多い。&lt;/p&gt;
+
+&lt;p&gt;SublimeTextが少し遅いのと、日本語入力でラグがあるので文章は打ちづらい。&lt;br /&gt;
+Atom.ioをはじめたけど、当たり前にできることが少なくてパッケージ導入前提なのでハマるとハマる。&lt;br /&gt;
+とりあえずは動くようになったけど、うーんという感じ。&lt;br /&gt;
+本当に速く、カスタマイズ性はIntlliJよりあり、統合環境をすべて整備してくれるエディタないのかな。&lt;br /&gt;
+それがVimなんかな・・・&lt;/p&gt;
+
+&lt;h2 id=&#34;look-back:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;look back&lt;/h2&gt;
+
+&lt;p&gt;一番最初はなんだっけ？Windowsの時はEmEditorとか使ってたな。&lt;br /&gt;
+いつかのエントリで昔を振り返ってみたいな。&lt;br /&gt;
+あさどうやMacky、EmEditorやWindows2000、go163、懐かしい。&lt;/p&gt;
+
+&lt;p&gt;あのころはほぼすべてのことを調べて、効率化は考えずにあげることだけ考えてた。&lt;br /&gt;
+あのころのモチベーションはどこに？&lt;/p&gt;
+
+&lt;h2 id=&#34;misc:19b15e8dbe90e2e5a92dbab0ccf4a11a&#34;&gt;Misc&lt;/h2&gt;
+
+&lt;p&gt;いろいろやり過ぎなんだろうか。&lt;br /&gt;
+いや、いろいろやることが多すぎるんだろう。今の時代。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>first shrine visit of New Year</title>
