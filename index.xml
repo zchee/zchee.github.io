@@ -19,19 +19,13 @@
       <guid>http://zchee.github.io/2015/01/self-management/</guid>
       <description>
 
-&lt;h2 id=&#34;rails:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;Rails&lt;/h2&gt;
-
 &lt;p&gt;時間はありあまるが、Railsの勉強が進まない。&lt;br /&gt;
 ヤク刈り？たった今自分が興味のあることに気が散ってしまって、まったく進む気配がない。&lt;/p&gt;
 
 &lt;p&gt;辛い。&lt;/p&gt;
 
-&lt;h2 id=&#34;docker:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;Docker&lt;/h2&gt;
-
 &lt;p&gt;Dockerの理解をまた少し深め、なんとなくVagrantとの違いが分かった気がする。&lt;br /&gt;
 自分の中ではpackerを使ってdocker形式にしてRailsなどを開発したほうが良い気がするのだけど違うのかな？&lt;/p&gt;
-
-&lt;h2 id=&#34;zsh:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;zsh&lt;/h2&gt;
 
 &lt;p&gt;zsh。環境構成をするにも際限なく進めてしまって、結局使わないコマンドがあったりして辛い。&lt;br /&gt;
 vimの見た目を変えたり、tmuxの見た目を変えたり。&lt;br /&gt;
