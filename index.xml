@@ -8,8 +8,53 @@
     
     
     
-    <lastBuildDate>Sat, 03 Jan 2015 05:23:31 JST</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2015 17:59:33 JST</lastBuildDate>
     <atom:link href="http://zchee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>self management</title>
+      <link>http://zchee.github.io/2015/01/self-management/</link>
+      <pubDate>Tue, 06 Jan 2015 17:59:33 JST</pubDate>
+      
+      <guid>http://zchee.github.io/2015/01/self-management/</guid>
+      <description>
+
+&lt;h2 id=&#34;rails:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;Rails&lt;/h2&gt;
+
+&lt;p&gt;時間はありあまるが、Railsの勉強が進まない。&lt;br /&gt;
+ヤク刈り？たった今自分が興味のあることに気が散ってしまって、まったく進む気配がない。&lt;/p&gt;
+
+&lt;p&gt;辛い。&lt;/p&gt;
+
+&lt;h2 id=&#34;docker:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;Docker&lt;/h2&gt;
+
+&lt;p&gt;Dockerの理解をまた少し深め、なんとなくVagrantとの違いが分かった気がする。&lt;br /&gt;
+自分の中ではpackerを使ってdocker形式にしてRailsなどを開発したほうが良い気がするのだけど違うのかな？&lt;/p&gt;
+
+&lt;h2 id=&#34;zsh:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;zsh&lt;/h2&gt;
+
+&lt;p&gt;zsh。環境構成をするにも際限なく進めてしまって、結局使わないコマンドがあったりして辛い。&lt;br /&gt;
+vimの見た目を変えたり、tmuxの見た目を変えたり。&lt;br /&gt;
+見た目も大事だけど、大事なのはコード。成果物。&lt;br /&gt;
+この1年なにも作れてないじゃないか。&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;ただHugoはやってみて良かった。&lt;br /&gt;
+後で見返すのが楽しみ。&lt;/p&gt;
+
+&lt;h2 id=&#34;app駆動開発:743a43fb2d283e0b5780a6da8ce4c68c&#34;&gt;App駆動開発&lt;/h2&gt;
+
+&lt;p&gt;あとはToggl。いつまで続くかわからないけど、時間を気にするのは大事なこと。&lt;br /&gt;
+trelloでタスクを管理して、Togglで時間を把握する。なんとなくこれらのアプリ駆動開発な感じで良いかもしれない。&lt;/p&gt;
+
+&lt;p&gt;とりあえずここまで書くのに10分。&lt;br /&gt;
+毎日続けることが大切。&lt;br /&gt;
+ターミナルも最初嫌いだったけど、今じゃ100%毎日起動してる。&lt;/p&gt;
+
+&lt;p&gt;そういう意味では少しは成長しているかな。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>in the beginning of spring cleaning 1</title>
