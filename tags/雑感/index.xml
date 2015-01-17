@@ -19,12 +19,12 @@
       <guid>http://zchee.github.io/2015/01/railstutorial/</guid>
       <description>
 
-&lt;h1 id=&#34;railstutorial:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Railstutorial&lt;/h1&gt;
+&lt;h2 id=&#34;railstutorial:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Railstutorial&lt;/h2&gt;
 
 &lt;p&gt;railstutorialがやっと終わった。&lt;br /&gt;
 動きが分かったぐらいで、Railsの全貌などほど遠いけど、終えたことは大事かもしれない。&lt;/p&gt;
 
-&lt;h1 id=&#34;seti-jb:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Seti_JB&lt;/h1&gt;
+&lt;h2 id=&#34;seti-jb:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Seti_JB&lt;/h2&gt;
 
 &lt;p&gt;Seti_JBが少し停滞してるけど、はじめてディスカッションしながらのOSS開発は楽しい。&lt;br /&gt;
 もう少し進めて、広がりを見せれれば良いけど。&lt;br /&gt;
@@ -34,18 +34,18 @@ Jetbrains IDEのThemeに対する皆の欲求はそんなに高くないのか�
 &lt;p&gt;アイコンとか変えてないで、Syntaxが自由に決めれるようなPlugin作りたい。&lt;br /&gt;
 普通のlang用のPluginを見てみて、検討する。&lt;/p&gt;
 
-&lt;h1 id=&#34;wordpress:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;WordPress&lt;/h1&gt;
+&lt;h2 id=&#34;wordpress:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;WordPress&lt;/h2&gt;
 
 &lt;p&gt;PHPを触っていないので、WordPressはじめるのがすごく面倒。&lt;br /&gt;
 rails、jsに浸っていたい。&lt;/p&gt;
 
-&lt;h1 id=&#34;hugo:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Hugo&lt;/h1&gt;
+&lt;h2 id=&#34;hugo:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Hugo&lt;/h2&gt;
 
 &lt;p&gt;少し間が空いたけど、とりあえずまた書こうという気になった。&lt;br /&gt;
 Hatenaと連携して、同じ投稿がHatenaにあがるようにしたい。&lt;br /&gt;
 そんななにか、既にありそうだ。&lt;/p&gt;
 
-&lt;h1 id=&#34;typing:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Typing&lt;/h1&gt;
+&lt;h2 id=&#34;typing:557103e17ab0fd9f8bb1d3cc3d7005cf&#34;&gt;Typing&lt;/h2&gt;
 
 &lt;p&gt;昔から変に覚えてしまったタイピングを治すべく、Chromiumをタイピング専用ブラウザとして設定して少しトライしている。&lt;br /&gt;
 &lt;code&gt;c&lt;/code&gt;や&lt;code&gt;p&lt;/code&gt;、&lt;code&gt;,&lt;/code&gt;や&lt;code&gt;.&lt;/code&gt;の打ち方が変わっただけでも成果はでていそうだ。&lt;br /&gt;
