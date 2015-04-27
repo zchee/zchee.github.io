@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Awareness</title>
+    <title>Posts on awareness</title>
     <link>http://zchee.github.io/post/</link>
-    <description>Recent content in Posts on Awareness</description>
+    <description>Recent content in Posts on awareness</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 28 Apr 2015 01:34:18 +0900</lastBuildDate>
     <atom:link href="http://zchee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
