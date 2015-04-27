@@ -5,6 +5,7 @@
     <link>http://zchee.github.io/</link>
     <description>Recent content on awareness</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
     <lastBuildDate>Tue, 28 Apr 2015 01:34:18 +0900</lastBuildDate>
     <atom:link href="http://zchee.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -64,7 +65,8 @@ end
 ただAtomのほうが日本語入力早いし快適。&lt;br /&gt;
 &lt;code&gt;draw_white_space&lt;/code&gt;は、&lt;code&gt;show invisible&lt;/code&gt; した。&lt;/p&gt;
 
-&lt;p&gt;Hugoでブログを1時間も書いているので、ここで終わり。&lt;/p&gt;
+&lt;p&gt;Hugoでブログを1時間も書いているので、ここで終わり。&lt;br /&gt;
+ネーミングセンスの話はどこいった。&lt;/p&gt;
 </description>
     </item>
     
