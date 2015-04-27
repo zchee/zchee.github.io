@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="http://zchee.github.io/css/normalize.css">
+<link rel="stylesheet" href="http://zchee.github.io/css/skeleton.css">
+<link rel="stylesheet" href="http://zchee.github.io/css/custom.css">
+<link rel="alternate" href="http://zchee.github.io/index.xml" type="application/rss+xml" title="awareness">
+<title>Restart - awareness</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="http://zchee.github.io/"><img src="" width="60" height="60"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Restart</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2015-04-28">April 28, 2015</time></span>
+			<section itemprop="entry-text">
+				
+
+<p>ずいぶん時間があいたけど、Hugo再始動。</p>
+
+<p>いつの間にかSublime Textの日本語入力が早くなっている。</p>
+
+<h1 id="screencast:fe465f2ad7057e24c18d976444bcc337">Screencast</h1>
+
+<p>自分のログをつけるのに、screencastを常時起動させておくことにした。</p>
+
+<h1 id="ネーミングセンス:fe465f2ad7057e24c18d976444bcc337">ネーミングセンス</h1>
+
+<p>いろいろなものを作るとき、ネーミング大事と言われているからこそ、悩む。</p>
+
+<blockquote>
+<p>おっとここでSublimeTextのMarkdownのスペースを可視化したくなってきた。</p>
+</blockquote>
+
+<p>一度<a href="https://github.com/SublimeText/TrailingSpaces">SublimeText/TrailingSpaces</a>を入れたけど、結局Markdown Syntaxの設定で<code>draw_white_space</code>をオンにした。<br />
+<a href="http://wayohoo.com/sublime-text/how-to-highlight-the-double-byte-space-for-sublime-text.html">Sublime Text 3でスペース（半角・全角）やタブを可視化する方法</a>や
+<a href="http://wayohoo.com/sublime-text/how-to-highlight-the-double-byte-space-for-sublime-text.html">【Sublime Text 3】コード内に紛れている全角スペースをハイライトにする設定方法。</a>を参考にした。</p>
+
+<blockquote>
+<p>ここでエアダスターを注文したくなってきた</p>
+</blockquote>
+
+<p>Amazonで買った。ELECOMのやつだ。1000円ぐらいで数日前より安くなっていた。</p>
+
+<p>このテーマは引用に対応していないみたい。後でやろう。<br />
+コードはどうだろう。</p>
+
+<p><code>devise - user.rb</code></p>
+
+<pre><code class="language-ruby">class User &lt; ActiveRecord::Base
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
+  validates :username, presence: true, uniqueness: true
+end
+</code></pre>
+
+<p>コードはSyntaxにも対応しているようだ。ただバッククオートのあとに言語を書くと、今度はSublimeのPackageが対応してなかった。のでAtomに切り替え。<br />
+そしたらSoftWrapがとんでもなかった。
+<img src="http://zchee.github.io/images/ss/Screenshot 2015-04-28 02.27.12.png" alt="" />
+
+勘弁してくれ。<br />
+ただAtomのほうが日本語入力早いし快適。<br />
+<code>draw_white_space</code>は、<code>show invisible</code> した。</p>
+
+<p>Hugoでブログを1時間も書いているので、ここで終わり。</p>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="_zchee_" target="_blank">Twitter</a></span>
+			
+			<a href="zchee" target="_blank">GitHub</a></span>
+		</div>
+		<div class="copyright">Copyright &copy; </div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

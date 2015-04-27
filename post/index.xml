@@ -9,12 +9,62 @@
     <atom:link href="http://zchee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>2015 04 28</title>
-      <link>http://zchee.github.io/2015/04/2015-04-28/</link>
+      <title>Restart</title>
+      <link>http://zchee.github.io/2015/04/restart/</link>
       <pubDate>Tue, 28 Apr 2015 01:34:18 +0900</pubDate>
       
-      <guid>http://zchee.github.io/2015/04/2015-04-28/</guid>
-      <description>&lt;p&gt;自分のログをつけるのに、screencastを常時起動させておくことにした。&lt;/p&gt;
+      <guid>http://zchee.github.io/2015/04/restart/</guid>
+      <description>
+
+&lt;p&gt;ずいぶん時間があいたけど、Hugo再始動。&lt;/p&gt;
+
+&lt;p&gt;いつの間にかSublime Textの日本語入力が早くなっている。&lt;/p&gt;
+
+&lt;h1 id=&#34;screencast:fe465f2ad7057e24c18d976444bcc337&#34;&gt;Screencast&lt;/h1&gt;
+
+&lt;p&gt;自分のログをつけるのに、screencastを常時起動させておくことにした。&lt;/p&gt;
+
+&lt;h1 id=&#34;ネーミングセンス:fe465f2ad7057e24c18d976444bcc337&#34;&gt;ネーミングセンス&lt;/h1&gt;
+
+&lt;p&gt;いろいろなものを作るとき、ネーミング大事と言われているからこそ、悩む。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;おっとここでSublimeTextのMarkdownのスペースを可視化したくなってきた。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一度&lt;a href=&#34;https://github.com/SublimeText/TrailingSpaces&#34;&gt;SublimeText/TrailingSpaces&lt;/a&gt;を入れたけど、結局Markdown Syntaxの設定で&lt;code&gt;draw_white_space&lt;/code&gt;をオンにした。&lt;br /&gt;
+&lt;a href=&#34;http://wayohoo.com/sublime-text/how-to-highlight-the-double-byte-space-for-sublime-text.html&#34;&gt;Sublime Text 3でスペース（半角・全角）やタブを可視化する方法&lt;/a&gt;や
+&lt;a href=&#34;http://wayohoo.com/sublime-text/how-to-highlight-the-double-byte-space-for-sublime-text.html&#34;&gt;【Sublime Text 3】コード内に紛れている全角スペースをハイライトにする設定方法。&lt;/a&gt;を参考にした。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ここでエアダスターを注文したくなってきた&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Amazonで買った。ELECOMのやつだ。1000円ぐらいで数日前より安くなっていた。&lt;/p&gt;
+
+&lt;p&gt;このテーマは引用に対応していないみたい。後でやろう。&lt;br /&gt;
+コードはどうだろう。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;devise - user.rb&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class User &amp;lt; ActiveRecord::Base
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
+  validates :username, presence: true, uniqueness: true
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;コードはSyntaxにも対応しているようだ。ただバッククオートのあとに言語を書くと、今度はSublimeのPackageが対応してなかった。のでAtomに切り替え。&lt;br /&gt;
+そしたらSoftWrapがとんでもなかった。
+&lt;img src=&#34;http://zchee.github.io/images/ss/Screenshot 2015-04-28 02.27.12.png&#34; alt=&#34;&#34; /&gt;
+
+勘弁してくれ。&lt;br /&gt;
+ただAtomのほうが日本語入力早いし快適。&lt;br /&gt;
+&lt;code&gt;draw_white_space&lt;/code&gt;は、&lt;code&gt;show invisible&lt;/code&gt; した。&lt;/p&gt;
+
+&lt;p&gt;Hugoでブログを1時間も書いているので、ここで終わり。&lt;/p&gt;
 </description>
     </item>
     
@@ -258,7 +308,7 @@ Atom.ioをはじめたけど、当たり前にできることが少なくてパ�
 自分も【Camera +】アプリの本領発揮、接写モードで撮ってみた。&lt;br /&gt;
 しっかりピン外してしまって残念な感じだ。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;images/camera/IMG_0620.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://zchee.github.io/images/camera/IMG_0620.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;お昼は、偶然にも以前巣鴨店の方に行ったことのある「やよい食堂」だったか、その浅草店で。&lt;br /&gt;
@@ -266,7 +316,7 @@ Atom.ioをはじめたけど、当たり前にできることが少なくてパ�
 でも美味しかった。&lt;br /&gt;
 浅草店も良かったが、巣鴨店は何故か落ち着くのでまたタイミングがあったら行きたいと思う。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;images/camera/IMG_0626.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://zchee.github.io/images/camera/IMG_0626.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;そんな元旦。&lt;br /&gt;
