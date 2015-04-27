@@ -5,8 +5,18 @@
     <link>http://zchee.github.io/</link>
     <description>Recent content on Awareness</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Jan 2015 00:11:03 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2015 01:34:18 +0900</lastBuildDate>
     <atom:link href="http://zchee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2015 04 28</title>
+      <link>http://zchee.github.io/2015/04/2015-04-28/</link>
+      <pubDate>Tue, 28 Apr 2015 01:34:18 +0900</pubDate>
+      
+      <guid>http://zchee.github.io/2015/04/2015-04-28/</guid>
+      <description>&lt;p&gt;自分のログをつけるのに、screencastを常時起動させておくことにした。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>railstutorial</title>
